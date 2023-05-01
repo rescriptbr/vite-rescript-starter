@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "vite",
     "res:build": "rescript",
-    "res:watch": "rescript build -w",
+    "res:dev": "rescript build -w",
     "build": "vite build",
     "serve": "vite preview"
   },
