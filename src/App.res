@@ -13,12 +13,13 @@ let make = () => {
       <p> {"Hello Vite + React + ReScript!"->React.string} </p>
       <p>
         <button type_="button" onClick={_ => setCount(count => count + 1)}>
-          {"count is "->React.string} {count->Belt.Int.toString->React.string}
+          {"count is "->React.string}
+          {count->Belt.Int.toString->React.string}
         </button>
       </p>
       <p>
         {"Edit "->React.string}
-        <code> {"App.jsx"->React.string} </code>
+        <code> {"App.res"->React.string} </code>
         {" and save to test HMR updates."->React.string}
       </p>
       <p>
